@@ -16,13 +16,13 @@ global.owner = ['27634090203',''] //owner number +27634090203
 global.wame = ['27634090203'] 
 global.pemilik = ['27634090203'] //owner number +27634090203
 global.premium = ['27634090203'] //premium number +27634090203
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.botname = 'ZIM BOT V4'
+global.pengguna = 'webon' //username
+global.footer = '240699'
+global.botnma = '240699' //bot name
+global.botname = '240699'
 global.ownernma = 'Drips' //owner name
 global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.author = 'Webon' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
@@ -53,13 +53,13 @@ global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=tru
 global.mess = {
     success: 'Takaenda Done!',
     admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
+    botAdmin: '*Webon  must be admin first!*',
+    owner: '*this feature is only for webon owner*',
     group: '*Feature is only for groups!*',
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment zim bot proccessing*',
+    wait: '*Awanta estamos procesando chichis...*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
     noPetualang: '*you are not in rpg database type #joinrpg* _ur name_'
 }
