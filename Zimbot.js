@@ -5747,7 +5747,7 @@ ${repo.open_issues} *ISSUES:*${repo.description ? `
         if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
         let anu = await maker.textpro(link, q)
         ZimBotInc.sendMessage(m.chat, {
-          image: { url: anu }, caption: `Made by ${global.botname}`, quoted: m, contextInfo: {
+          image: { url: anu }, caption: `${global.botname}`, quoted: m, contextInfo: {
             externalAdReply: {
               title: "BAUTISTA",
               body: "SUBSCRIBE 240699",
@@ -5795,7 +5795,7 @@ ${repo.open_issues} *ISSUES:*${repo.description ? `
         if (!text) throw `Example : ${prefix + command} text`
         anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
         ZimBotInc.sendMessage(m.chat, {
-          image: anu, caption: `*PHOTO OXY ${command}*`, quoted: m, contextInfo: {
+          image: anu, caption: `*${command}*`, quoted: m, contextInfo: {
             externalAdReply: {
               title: "BAUTISTA",
               body: "SUBSCRIBE 240699",
